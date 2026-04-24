@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Forest of Stories | Member Sign-Up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>The Forest of Stories</h1>
+      <p class="tagline">Join the Club and Personalize the Page</p>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discussion.html">Discussion</a></li>
+          <li><a href="schedule.html">Reading Schedule</a></li>
+          <li><a href="signup.html" class="active">Member Sign-Up</a></li>
+          <li><a href="reviews.html">Reviews & Archive</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2 id="welcomeMessage">Become a member of The Forest of Stories</h2>
+      <p>
+        This page includes JavaScript and form elements that let users interact with the site.
+        Members can enter their name, choose a favorite genre, and change the page theme.
+      </p>
+    </section>
+
+    <section class="grid-two">
+      <article class="card">
+        <h3>Member Sign-Up Form</h3>
+        <form id="signupForm">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+
+          <label for="genre">Favorite Genre</label>
+          <select id="genre" name="genre">
+            <option value="Fantasy">Fantasy</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Romance">Romance</option>
+            <option value="Historical Fiction">Historical Fiction</option>
+            <option value="Thriller">Thriller</option>
+          </select>
+
+          <label for="bio">Short Bio</label>
+          <textarea id="bio" name="bio" rows="4" placeholder="Tell us a little about yourself"></textarea>
+
+          <button type="submit" class="button">Submit</button>
+        </form>
+        <p id="formResult" class="result"></p>
+      </article>
+
+      <article class="card">
+        <h3>Customize This Page</h3>
+
+        <label for="themeSelect">Choose a theme</label>
+        <select id="themeSelect">
+          <option value="dreamy">Dreamy Pink Purple</option>
+          <option value="moon">Moonlight Purple Blue</option>
+          <option value="cozy">Cozy Cream Purple</option>
+        </select>
+
+        <fieldset>
+          <legend>Choose header style</legend>
+          <label><input type="radio" name="headerStyle" value="serif" checked> Playful Headings</label>
+          <label><input type="radio" name="headerStyle" value="sans"> Simple Headings</label>
+        </fieldset>
+
+        <button type="button" id="applyStyle" class="button">Apply Style</button>
+        <p id="styleMessage" class="result"></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Forest of Stories. Designed by Gabriela Betancourt.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

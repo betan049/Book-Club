@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Book club hero illustration</title>
+  <desc id="desc">Open book with leaves, stars, and warm decorative shapes</desc>
+  <rect width="600" height="420" rx="28" fill="#f2eadf"/>
+  <circle cx="100" cy="90" r="32" fill="#d8b16b" opacity="0.8"/>
+  <circle cx="510" cy="88" r="24" fill="#557d65" opacity="0.75"/>
+  <path d="M175 270c26-60 88-86 125-86s99 26 125 86" fill="#6d927c" opacity="0.18"/>
+  <path d="M130 300c40-34 83-52 132-52s96 18 130 52v56H130z" fill="#d6e2d6"/>
+  <path d="M160 250c26-19 56-29 90-29 43 0 77 15 110 39" fill="none" stroke="#5e826c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M187 166c10-23 33-36 56-34-7 23-29 39-56 34z" fill="#5a8753"/>
+  <path d="M405 176c-9-21-30-35-53-35 6 23 25 39 53 35z" fill="#688f5e"/>
+  <path d="M145 145l8 16 18 3-13 12 3 18-16-8-16 8 3-18-13-12 18-3z" fill="#d8b16b"/>
+  <path d="M465 140l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z" fill="#d8b16b"/>
+  <path d="M172 229c17-14 37-21 59-21 31 0 59 14 89 34V132c-24-17-49-26-78-26-24 0-48 8-70 23z" fill="#fffef9" stroke="#365c47" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M428 229c-17-14-37-21-59-21-31 0-59 14-89 34V132c24-17 49-26 78-26 24 0 48 8 70 23z" fill="#fffef9" stroke="#365c47" stroke-width="8" stroke-linejoin="round"/>
+  <line x1="300" y1="135" x2="300" y2="243" stroke="#365c47" stroke-width="6"/>
+  <path d="M224 154h57" stroke="#d8b16b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M224 178h47" stroke="#d8b16b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M321 154h57" stroke="#d8b16b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M321 178h47" stroke="#d8b16b" stroke-width="6" stroke-linecap="round"/>
+  <text x="300" y="356" text-anchor="middle" font-family="Georgia, serif" font-size="32" fill="#365c47">Forest of Stories</text>
+</svg>
